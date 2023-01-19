@@ -176,16 +176,15 @@ main {
 }
 
 .bubble-three-flex {
-    align-self: flex-end;
     font-size: 0.5rem;
     width: 8rem;
     height: 2.75rem;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     background-color: rgba(146, 65, 200, 0.15);
     color: hsl(276, 55%, 52%);
-    border-radius: 10px 10px 0 10px;
+    border-radius: 10px 10px 10px 0;
 }
 
 .bubble-four {
