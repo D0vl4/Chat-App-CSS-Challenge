@@ -34,6 +34,8 @@ Users should be able to:
 
 I used Figma to recreate everything. It was huge help for me to code when I had the design in front of me 😊 and I recommend everyone to do the same! 🤠
 
+![figma Design](./design/figma-design.png)
+
 Design Process:
 
 - Understand the problem statement and requirements of the coding challenge.
