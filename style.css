@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Rubik';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/Rectangle.svg"), url("./images/btm-rec.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    width: 23rem;
+    height: 59rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 1440px) {
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        gap: 8rem;
+        width: 90rem;
+        height: 59rem;
+        background-image: url("./images/desktop-top-left.svg"), url("./images/desktop-bottom-right.svg");
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 15.5rem;
+    min-height: 31.5rem;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.grey-bg {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 14rem;
+    height: 30rem;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 20px;
+}
+
+.top-big-notch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 14rem;
+    height: 4.125rem;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 20px 20px 5px 5px;
+}
+
+.small-notch {
+    width: 8rem;
+    height: 1.125rem;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+.inside-big-notch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+    gap: 1.5rem;
+}
+
+.avatar {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transform: translateX(-1rem);
+}
+
+.paragraph-flex {
+    transform: translateX(-2.2rem);
+}
+
+.name {
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.available {
+    color: #fff;
+    font-size: 0.5rem;
+}
+
+.bubble-one {
+    font-size: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgba(146, 65, 200, 0.15);
+    color: hsl(276, 55%, 52%);
+    border-radius: 10px 10px 10px 0;
+}
+
+.bubble-one-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.dog-pictures {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem;
+    justify-content: flex-end;
+}
+
+.good-bois {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.bubble-two-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bubble-two {
+    font-size: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px 10px 10px 0;
+}
+
+.bubble-three {
+    font-size: 0.5rem;
+    width: 5rem;
+    height: 1.4rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px 10px 10px 0;
+}
+
+.bubble-three-flex {
+    align-self: flex-end;
+    font-size: 0.5rem;
+    width: 8rem;
+    height: 2.75rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: rgba(146, 65, 200, 0.15);
+    color: hsl(276, 55%, 52%);
+    border-radius: 10px 10px 0 10px;
+}
+
+.bubble-four {
+    font-size: 0.5rem;
+}
+
+.price-one-container {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 10px 10px 10px 0;
+}
+
+.circle-one {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    border: 1px solid #fff;
+}
+
+.price-one-length {
+    font-size: 0.5rem;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+
+.price-one-bold {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 1.5rem;
+}
+
+.price-two-bold {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 2.5rem;
+}
+
+.message-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 13rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.input-text {
+    font-size: 0.65rem;
+    color: hsl(206, 6%, 79%);
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: hsl(206, 6%, 79%);
+}
+
+input:focus {
+    color: #000;
+}
+
+.circle-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(0.75rem);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: hsl(271, 36%, 24%);
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {
+        text-align: left;
+        margin-left: 0.75rem;
+    }
+}
+
+.explanation {
+    text-align: center;
+    padding: 0 0.75rem;
+    margin-top: 1.75rem;
+    letter-spacing: -0.015rem;
+    line-height: 172.5%;
+    color: hsl(270, 7%, 64%);
+}
+
+@media only screen and (min-width: 1440px) {
+    .explanation {
+        text-align: left;
+        width: 25rem;
+    }
+}
+
+.attribution {
+    font-size: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.attribution a {
+    font-size: 10px;
+    color: hsl(228, 45%, 44%);
+}
+
+/* 
+#### Text
+
+- Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)
+- Moderate Violet (chat on the left): hsl(276, 55%, 52%)
+- Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
+- Grayish Blue (placeholder text): hsl(206, 6%, 79%)
+- Very Dark Desaturated Violet (main heading): hsl(271, 36%, 24%)
+- Dark Grayish Violet (paragraph): hsl(270, 7%, 64%)
+
+#### Gradients
+
+These two colors are the vibrant background colors you see throughout the design and are applied as a linear gradient:
+
+- Light Magenta: hsl(293, 100%, 63%)
+- Light Violet: hsl(264, 100%, 61%)
+
+### Secondary
+
+- White: hsl(0, 0%, 100%)
+- Light Grayish Violet (app background): hsl(270, 20%, 96%)
+- Very Dark Desaturated Violet (submit button background): hsl(271, 36%, 24%)
+- Very Light Magenta (radio button outline): hsl(289, 100%, 72%)
+*/
