@@ -150,27 +150,29 @@ main {
 }
 
 .bubble-two {
+    align-self: flex-end;
     font-size: 0.5rem;
     width: 8rem;
     height: 2rem;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     background-color: #fff;
     color: #000;
-    border-radius: 10px 10px 10px 0;
+    border-radius: 10px 10px 0 10px;
 }
 
 .bubble-three {
+    align-self: flex-end;
     font-size: 0.5rem;
     width: 5rem;
     height: 1.4rem;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     background-color: #fff;
     color: #000;
-    border-radius: 10px 10px 10px 0;
+    border-radius: 10px 10px 0 10px;
 }
 
 .bubble-three-flex {
