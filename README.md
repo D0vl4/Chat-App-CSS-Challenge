@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/chat-app-css-illustration-ztRpvqjrer)
-- Live Site URL: [Live Site Link](https://peaceful-smakager-113117.netlify.app)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/chat-app-css-illustration-ztRpvqjrer)
+- Live Site URL: [Click here](https://peaceful-smakager-113117.netlify.app)
 
 ## My process
 
